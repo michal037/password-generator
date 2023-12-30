@@ -1,0 +1,25 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "short_name": "Password",
+    "name": "Password Generator",
+    "description": "Password Generator",
+    "start_url": ".",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#0c1217",
+    "background_color": "#0c1217",
+    "icons": [
+      {
+        "src": "img/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+}

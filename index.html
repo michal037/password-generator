@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Password Generator</title>
+	<meta name="description" content="safe and secure password generator">
+	<meta name="keywords" content="random, password, generator">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="manifest" href="manifest.json">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="theme-color" content="#0c1217">
+</head>
+
+<body>
+	<!--[if IE]>
+		<p class="browserupgrade">
+			You are using an <strong>outdated browser</strong>.
+			Please <a href="https://browsehappy.com/" target="_blank"
+			rel="noopener noreferrer">upgrade your browser</a> to improve your experience and security.
+		</p>
+	<![endif]-->
+	<noscript>
+		<p class="enablejavascript">
+			For full functionality of this site it is necessary to <strong>enable JavaScript</strong>.
+			Here are the <a href="https://www.enable-javascript.com/" target="_blank"
+				rel="noopener noreferrer">instructions how to enable JavaScript in your web browser</a>.
+		</p>
+	</noscript>
+
+	<h1 class="title">Password Generator</h1>
+	<h2 class="subtitle">All passwords are securely generated on your device only and are never sent across the
+		Internet.</h2>
+
+	<div id="appPassword"><span class="digit">waiting for JavaScript</span></div>
+
+	<div class="button"><button type="button" id="appCopy" class="noselect">Copy</button><button type="button"
+			id="appGenerate" class="noselect">Generate</button></div>
+
+	<div class="length" title="length"><input id="appLength" type="number" min="1" max="128" step="1" value="32"><input
+			id="appSlider" type="range" min="1" max="128" step="1" value="32"></div>
+
+	<div class="checkbox"><label title="lowercase letter"><input id="appLowercase" type="checkbox" checked><span
+				class="noselect">abc</span></label><label title="uppercase letter"><input id="appUppercase"
+				type="checkbox" checked><span class="noselect">ABC</span></label><label title="digit"><input
+				id="appDigit" type="checkbox" checked><span class="noselect">123</span></label><label
+			title="symbol"><input id="appSymbol" type="checkbox" checked><span class="noselect">@#!</span></label></div>
+
+	<div class="exception"><span>Include</span><input id="appInclude" type="text"></div>
+	<div class="exception"><span>Exclude</span><input id="appExclude" type="text"></div>
+
+	<footer>
+		<hr>
+		<a href="https://github.com/michal037/password-generator" target="_blank" rel="noopener noreferrer">Source Code</a>
+		<a href="LICENSE.txt">MIT License</a>
+		<a href="THIRD-PARTY-LICENSES.txt">Third Party Licenses</a>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
