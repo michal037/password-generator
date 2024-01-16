@@ -111,6 +111,7 @@ a:hover {
     font-family: monospace;
     font-size: 1.4em;
     word-break: break-all;
+    overflow-wrap: break-word;
     text-align: center;
     background: #191919;
     border: 2px solid #222;
